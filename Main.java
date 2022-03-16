@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.sql.Array;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,8 +9,6 @@ public class Main {
         double base = getBase();
         double width = getWidth();
         System.out.println(computeAreaTriangle(width,base));
-        int[] intArray = new int[]{ 1,2,3,4,5,6,7,8,9,10 };
-        findArray(intArray);
     }
         static void function(){
         System.out.println("I am a function!");
@@ -52,6 +51,7 @@ public class Main {
     {
         System.out.println(list);
     }
+    //This is a Hackerrank question and therefore has an error :)
     public static void miniMaxSum(List<Integer> arr) {
         // Write your code here
         int min = 0;
@@ -86,7 +86,8 @@ public class Main {
         return result;
 
     }
-        public static int diagonalDifference(List<List<Integer>> arr) {
+    //This is a Hackerrank question and therefore has an error :)
+    public static int diagonalDifference(List<List<Integer>> arr) {
     int left = 0;
     int right = 0;
     for(int i = 0; i < arr.size();i++)
